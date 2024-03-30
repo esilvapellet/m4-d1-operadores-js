@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, img, a {
+    align-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 25px;
+}
+
+img {
+    width: 50%;
+    padding: 25px;
+    border: 2px;
+    border-color: blue;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    padding: 25px;
+}
+
+hr {
+    width: 75%;
+}
